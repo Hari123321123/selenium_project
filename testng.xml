@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="seleniumwebdriver.webauto"/>
+      <class name="testclass.test"/>
+      <class name="testclass.autosuggest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

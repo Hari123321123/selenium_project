@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-05T14:53:21 IST" name="Suite" finished-at="2023-04-05T14:53:36 IST" duration-ms="14612">
+  <suite started-at="2023-04-16T18:01:43 IST" name="Default suite" finished-at="2023-04-16T18:01:58 IST" duration-ms="14975">
     <groups>
     </groups>
-    <test started-at="2023-04-05T14:53:21 IST" name="Test" finished-at="2023-04-05T14:53:36 IST" duration-ms="14612">
-      <class name="seleniumwebdriver.webauto">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumwebdriver.webauto@2f67b837]" started-at="2023-04-05T14:53:21 IST" name="setup" finished-at="2023-04-05T14:53:26 IST" duration-ms="4342" status="PASS">
+    <test started-at="2023-04-16T18:01:43 IST" name="Default test" finished-at="2023-04-16T18:01:58 IST" duration-ms="14975">
+      <class name="testclass.calender_Test">
+        <test-method signature="calselect()[pri:1, instance:testclass.calender_Test@78641d23]" started-at="2023-04-16T18:01:43 IST" name="calselect" description=" " finished-at="2023-04-16T18:01:58 IST" duration-ms="14800" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:seleniumwebdriver.webauto@2f67b837]" started-at="2023-04-05T14:53:26 IST" name="login" description="logintofacebook" finished-at="2023-04-05T14:53:36 IST" duration-ms="10061" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closethedriver()[pri:0, instance:seleniumwebdriver.webauto@2f67b837]" started-at="2023-04-05T14:53:36 IST" name="closethedriver" finished-at="2023-04-05T14:53:36 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closethedriver -->
-      </class> <!-- seleniumwebdriver.webauto -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- calselect -->
+      </class> <!-- testclass.calender_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
